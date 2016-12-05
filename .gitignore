@@ -24,3 +24,16 @@ def move(my_history, their_history, my_score, their_score):
 Example0:	'cccccccccc'       Score  = -5000
 Example1:	'bbbbbbbbbb'       Score  = +1000
 
+team 1 vs. team 0
+100 vs. -500
+backstabber vs. loyal
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+# Test 1
+    if test_move(my_history='',
+                 their_history='',
+                 my_score=0,
+                 their_score=0,
+                 result='b'):
+        print 'Test passed'
